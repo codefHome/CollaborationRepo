@@ -18,7 +18,7 @@ form{
     border-radius: 10px;
     margin:20px auto;
 }
-input, label, select{
+input, label, select,textarea{
     display: block;
     padding:10px 5px;
     margin:8px auto;
@@ -45,3 +45,19 @@ input, label, select{
     padding:0;
     margin:3px 0;
 }
+#textarea{
+    height:150px;
+}
+#submit{
+    background:#37af65;
+    color:white;
+    font-weight: bold;
+    border: none;
+    outline:none;
+    width:90%;
+    margin:8px auto;
+    
+
+    
+}
+

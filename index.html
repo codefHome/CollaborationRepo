@@ -24,7 +24,7 @@
       <input type="number" id="age" placeholder="Age" />
       <label for="Age">Which option best describes your current role?</label>
       <select name="role" id="role">
-        <option value="Teacher">Select current role</option>
+        <option value="">Select current role</option>
         <option value="Teacher">Teacher</option>
         <option value="Developer">Developer</option>
         <option value="banker">banker</option>
@@ -47,6 +47,66 @@
           <label for="recommend">Not sure</label>
         </div>
       </div>
+      <label for="Age">What is your favorite feature of freeCodeCamp?</label>
+      <select name="role" id="dropdown">
+        <option value="">Select current role</option>
+        <option value="Challenges">Challenges</option>
+        <option value="Projects">Projects</option>
+        <option value="Community">Community</option>
+        <option value="Open Source">Open Source</option>
+      </select>
+      <div id="flex-inputs">
+        <label id="recommend-label"
+          >Would you recommend freeCodeCamp to a friend?</label
+        >
+        <div id="radio">
+          <input type="checkbox" name="recommend" id="" value="Front-end Projects" />
+          <label for="recommend">Front-end Projects</label>
+        </div>
+        <div id="radio">
+          <input type="checkbox" name="recommend" id="" value="Back-end Projects" />
+          <label for="recommend">Back-end Projects</label>
+        </div>
+        <div id="radio">
+          <input type="checkbox" name="recommend" id="" value="Data Visualization" />
+          <label for="recommend">Data Visualization</label>
+        </div>
+        <div id="radio">
+          <input type="checkbox" name="recommend" id="" value="Challenges" />
+          <label for="recommend">Challenges</label>
+        </div>
+        <div id="radio">
+          <input type="checkbox" name="recommend" id="" value="Open Source Community" />
+          <label for="recommend">Open Source Community</label>
+        </div>
+        <div id="radio">
+          <input type="checkbox" name="recommend" id="" value="Gitter help rooms" />
+          <label for="recommend">Gitter help rooms</label>
+        </div>
+        <div id="radio">
+          <input type="checkbox" name="recommend" id="" value="Videos" />
+          <label for="recommend">Videos</label>
+        </div>
+        <div id="radio">
+          <input type="checkbox" name="recommend" id="" value="City Meetups" />
+          <label for="recommend">City Meetups</label>
+        </div>
+        <div id="radio">
+          <input type="checkbox" name="recommend" id="" value="Wiki" />
+          <label for="recommend">Wiki</label>
+        </div>
+        <div id="radio">
+          <input type="checkbox" name="recommend" id="" value="Forum" />
+          <label for="recommend">Forum</label>
+        </div>
+        <div id="radio">
+          <input type="checkbox" name="recommend" id="" value="Additional Courses" />
+          <label for="recommend">Additional Courses</label>
+        </div>
+      </div>
+      <label for="textarea">Any Comments or Suggestions</label>
+      <textarea id="textarea" name="textarea" placeholder="Enter your comments here..." ></textarea>
+      <input id="submit" type="submit"/>
     </form>
     <script src="js/index.js"></script>
   </body>
