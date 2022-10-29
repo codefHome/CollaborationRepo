@@ -1,0 +1,47 @@
+body{
+    padding:20px;
+    background:#3C3D8C;
+    
+    color:white;
+}
+p{
+    font-style: italic;
+    text-align:center;
+}
+h1{
+    text-align:center;
+}
+form{
+    background: #292848;
+    max-width: 520px;
+    padding:40px 20px;
+    border-radius: 10px;
+    margin:20px auto;
+}
+input, label, select{
+    display: block;
+    padding:10px 5px;
+    margin:8px auto;
+    width:90%;
+}
+#recommend-label{
+    font-size:1.2rem;
+}
+#radio{
+    display:flex;
+    width:90%;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+#radio input{
+    width:50px;
+    padding:0;
+    margin:3px 0;
+    
+}
+#radio label{
+    width:200px;
+    padding:0;
+    margin:3px 0;
+}

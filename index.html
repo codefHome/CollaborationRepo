@@ -1,15 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
 
-   <h1>Hello World. We are Developers !</h1>
-    <script  src="js/index.js"></script>
+    <h1 id="title">Survey Landing page</h1>
+
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+
+    <form action="" id="survey-form">
+      <label for="Name" id="name-label">Name</label>
+      <input type="text" id="name" placeholder="Enter your name" />
+      <label for="Email" id="email-label">Email</label>
+      <input type="email" id="email" placeholder="Enter your Email" />
+      <label for="Age" id="number-label">Age (Optional)</label>
+      <input type="number" id="age" placeholder="Age" />
+      <label for="Age">Which option best describes your current role?</label>
+      <select name="role" id="role">
+        <option value="Teacher">Select current role</option>
+        <option value="Teacher">Teacher</option>
+        <option value="Developer">Developer</option>
+        <option value="banker">banker</option>
+      </select>
+
+      <div id="flex-inputs">
+        <label id="recommend-label"
+          >Would you recommend freeCodeCamp to a friend?</label
+        >
+        <div id="radio">
+          <input type="radio" name="recommend" id="" value="definitely" />
+          <label for="recommend">Definitely</label>
+        </div>
+        <div id="radio">
+          <input type="radio" name="recommend" id="" value="maybe" />
+          <label for="recommend">Maybe</label>
+        </div>
+        <div id="radio">
+          <input type="radio" name="recommend" id="" value="not sure" />
+          <label for="recommend">Not sure</label>
+        </div>
+      </div>
+    </form>
+    <script src="js/index.js"></script>
   </body>
 </html>
