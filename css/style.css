@@ -13,7 +13,7 @@ h1{
 }
 form{
     background: #292848;
-    max-width: 520px;
+    max-width: 650px;
     padding:40px 20px;
     border-radius: 10px;
     margin:20px auto;
@@ -24,6 +24,7 @@ input, label, select,textarea{
     margin:8px auto;
     width:90%;
 }
+
 #recommend-label{
     font-size:1.2rem;
 }
@@ -47,6 +48,7 @@ input, label, select,textarea{
 }
 #textarea{
     height:150px;
+    width:91%;
 }
 #submit{
     background:#37af65;
@@ -54,10 +56,13 @@ input, label, select,textarea{
     font-weight: bold;
     border: none;
     outline:none;
-    width:90%;
+    width:93%;
     margin:8px auto;
-    
+    cursor:pointer;
 
     
+}
+select{
+    width:93%;
 }
 
